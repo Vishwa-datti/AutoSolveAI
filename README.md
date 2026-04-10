@@ -5,6 +5,10 @@
 AutoSolveAI is a multi-agent AI system that processes PDFs containing questions, generates answers, validates correctness, and provides feedback in real time.
 
 This project was built to solve the problem of students getting **incorrect or inconsistent answers** from different sources, by improving answer accuracy and reliability.
+## 📊 Architecture Diagram
+
+Postman → Webhook → PDF Extraction → Solver Agent → Validator Agent → Telegram
+
 
 ---
 
